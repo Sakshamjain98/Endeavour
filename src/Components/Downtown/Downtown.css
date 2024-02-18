@@ -1,0 +1,15 @@
+
+.downtown {
+    position: relative;
+    overflow-x: hidden;
+}
+
+.downtownBackground {
+    /* width: 100%; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    height: auto;
+}

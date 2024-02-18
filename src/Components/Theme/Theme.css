@@ -1,0 +1,109 @@
+.esummit-theme {
+    position: relative;
+    z-index: 2;
+    font-family: 'Orbitron', sans-serif;
+    margin: 20px;
+    margin-left: 126px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #FFF;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.esummit-theme-heading {
+    font-size: 48px;
+    /* text-shadow: 9px 7px 4px rgba(0, 0, 0, 0.46); */
+
+    background: linear-gradient(129deg, #FFF 3.95%, #66C2E3 93.33%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* backdrop-filter: blur(18.5px); */
+    width: fit-content;
+    font-weight: 800;
+
+    filter: drop-shadow(6px 4px 4px #000);
+
+}
+
+.esummit-theme-content {
+    font-size: 24px;
+    font-family: 'Oxanium', cursive;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.46);
+}
+
+.esummit-theme-right {
+    position: relative;
+    width: 300px;
+}
+
+.esummit-theme-right-content {
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 45px;
+    margin-right: 10px;
+    font-size: 15px;
+    font-family: 'Oxanium', cursive;
+    /* margin: 10px; */
+    filter: drop-shadow(6px 4px 4px #000);
+
+
+}
+
+.esummit-theme-right-content span {
+    font-family: 'Orbitron', sans-serif;
+    filter: drop-shadow(6px 4px 4px #000);
+
+    font-size: 28px;
+    color: #9FE2FF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+}
+
+.esummit-theme-right img {
+    width: 300px;
+}
+
+.astronaut-2 {
+    position: absolute;
+    /* top: 20; */
+    /* left: 20; */
+    width: 200px;
+}
+
+@media screen and (max-width:1000px) {
+    .esummit-theme {
+        flex-direction: column-reverse;
+        margin-left: 10px;
+    }
+
+    .esummit-theme-right-content {
+        font-size: 20px;
+    }
+
+    .esummit-theme-right-content {
+        font-size: 12px;
+    }
+
+    .esummit-theme-heading {
+        font-size: 20px;
+    }
+
+    .esummit-theme-content {
+        font-size: 12px;
+    }
+
+    .esummit-theme-left {
+        padding: 20px;
+    }
+}
+
+.themeVector {
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    width: 200px;
+}

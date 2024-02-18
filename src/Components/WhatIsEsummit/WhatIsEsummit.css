@@ -1,0 +1,90 @@
+
+.what-is-esummit {
+    font-family: 'Orbitron', sans-serif;
+    position: relative;
+    padding: 30px;
+    overflow: hidden;
+    z-index: 2;
+    letter-spacing: 1px;
+    /* padding-top: 200px; */
+}
+
+.what-is-esummit-vector {
+    position: absolute;
+    left: 20px;
+    height: 400px;
+}
+
+.what-is-esummit-img {
+    max-width: 400px;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+
+.what-is-esummit-heading {
+    font-size: 48px;
+    margin-top: 200px;
+    position: relative;
+    margin-left: 121px;
+
+    background: linear-gradient(129deg, #FFF 3.95%, #66C2E3 93.33%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* text-shadow: 6px 4px 4px #000; */
+    width: fit-content;
+    font-weight: 700;
+    /* backdrop-filter: blur(18.5px); */
+    filter: drop-shadow(6px 4px 4px #000);
+
+}
+
+/* .what-is-esummit-heading:after {
+    background: none;
+    content: attr(data-text);
+    left: 0;
+    top: 0;
+    z-index: 3;
+    position: absolute;
+    text-shadow: 0 3px 5px #333;
+} */
+
+.what-is-esummit-content {
+    font-size: 24px;
+    margin-left: 100px;
+    color: #FFF;
+    font-size: x-large;
+    font-weight: bolder;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.46);
+    font-family: 'Oxanium', cursive;
+}
+
+.what-is-esummit-astronaut {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    /* z-index: 4; */
+}
+
+@media screen and (max-width:700px) {
+    .what-is-esummit-img {
+        max-width: 300px;
+        margin-left: 10px;
+    }
+
+    .what-is-esummit-heading {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+
+    .what-is-esummit-content {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .what-is-esummit-vector {
+        height: 200px;
+    }
+}

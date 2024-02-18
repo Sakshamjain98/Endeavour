@@ -1,0 +1,27 @@
+.landing-page-content {
+    position: relative;
+    background: url('./uptownBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.leftBackground {
+    position: absolute;
+    z-index: 5;
+    top: 480px;
+    left: 0;
+    width: 40%;
+    z-index: 1;
+    transform: scale(1.2);
+}
+
+.rightBackground {
+    position: absolute;
+    z-index: 5;
+    top: 0px;
+    right: 0;
+    width: 40%;
+    z-index: 1;
+    transform: scale(1.1);
+}
